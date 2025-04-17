@@ -140,7 +140,7 @@ def train_vol_model(data_path, use_log_target=True, output_predictions=True, mod
 
         output_path = "../data/vol_predictions.csv"
         output_df.to_csv(output_path)
-        print(f"📄 Predictions saved to: {output_path}")
+        print(f"Predictions saved to: {output_path}")
 
 
 if __name__ == "__main__":
