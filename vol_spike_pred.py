@@ -129,7 +129,7 @@ def predict_vol_spikes(data_path):
         meta_model.fit(meta_train_X, meta_train_y)
         meta_preds = meta_model.predict(meta_test_X)
 
-        print("\n📊 Meta-Model (False Positive Filter) Report:")
+        print("\n Meta-Model (False Positive Filter) Report:")
         print(classification_report(meta_test_y, meta_preds))
 
         importances = pd.Series(meta_model.feature_importances_, index=meta_features.columns)
