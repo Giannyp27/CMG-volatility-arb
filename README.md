@@ -1,4 +1,4 @@
-#  DLTR Volatility Arbitrage Strategy
+#  CMG Volatility Arbitrage Strategy
 
 This repo contains a quantitative options trading strategy that targets **short volatility** opportunities using CMG (Chipotle) options. The model combines **machine learning**, **volatility filters**, and **Monte Carlo simulation** to identify trades with high risk-adjusted return.
 
