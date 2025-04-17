@@ -108,7 +108,7 @@ def train_vol_model(data_path, use_log_target=True, output_predictions=True, mod
     meta_model.fit(meta_X, meta_y)
     y_pred_ensemble = meta_model.predict(meta_X).reshape(-1, 1)
 
-    print(f"\n📊 Meta-Ensemble Model Feature Importances:")
+    print(f"\nMeta-Ensemble Model Feature Importances:")
     print(dict(zip(meta_X.columns, meta_model.feature_importances_)))
 
     # Evaluation
