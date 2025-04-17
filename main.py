@@ -16,7 +16,7 @@ def black_scholes_delta(S, K, T, r, sigma):
     return norm.cdf(d1)
 
 def run_strategy():
-    print("📥 Loading price and volatility data...")
+    print(" Loading price and volatility data...")
     price_df = pd.read_csv("../data/cmg_raw.csv", index_col=0, parse_dates=True)
     vol_df = pd.read_csv("../data/vol_predictions.csv", index_col=0, parse_dates=True)
     
