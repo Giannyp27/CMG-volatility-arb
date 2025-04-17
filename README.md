@@ -26,6 +26,9 @@ This repo contains a quantitative options trading strategy that targets **short 
 - **Sharpe Ratio**: `3.47`
 - **Max Drawdown**: `-2.75%`
 - **Win/Loss Ratio**: `1.00`
+  ![image](https://github.com/user-attachments/assets/e99dd1e3-0ea4-4ab6-adcb-a715bff4789e)
+
+
 
 These results reflect a strategy that:
 - Avoids risky trades using a volatility spike classifier
