@@ -50,7 +50,7 @@ def fetch_cmg_data(start_date="2003-01-27", end_date="2025-04-06"):
     save_path = "/Users/gianlucapannozzo/Desktop/university/VS Code/dltr-volatility-arb/data/cmg_raw.csv"
     os.makedirs(os.path.dirname(save_path), exist_ok=True)
 
-    print("🔗 Merging datasets...")
+    print(" Merging datasets...")
     combined = bars[['close']].rename(columns={'close': 'cmg_close'}).join(
         spy_bars, how='inner').join(
         vix_bars, how='inner'
